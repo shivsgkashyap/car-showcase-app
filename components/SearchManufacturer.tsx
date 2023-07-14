@@ -10,7 +10,17 @@ const SearchManufacturer = ({
   manufacturer,
   setManufacturer,
 }: SearchManufacturerProps) => {
-  const [query, setQuery] = useState("");
+  const [query, setQuery] = useState("")
+
+const filteredManufacturers = 
+  query === "" 
+  ? manufacturers 
+  : manufacturers.filter((item) => (
+    item.toLowerCase()
+    .replace(/\s+/g, "")
+    .includes(query.toLowerCase().replace(/\s+/g,
+     "")
+  ))
 
   return (
     <div className="search-manufacturer">
@@ -26,21 +36,12 @@ const SearchManufacturer = ({
             />
           </Combobox.Button>
 
-          <Combobox.Input
-            className="search-manufacturer__input"
-            placeholder="Volkswagen"
-            displayValue={(manufacturer: string) => manufacturer}
-            onChange={(e) => setQuery(e.target.value)}
-          />
+          <Combobox.Input className="search-manufacturer__input" placeholder="Volkswagen" displayValue={(manufacturer: string) => manufacturer} onChange={(e) => setQuery(e.target.value)}/>
 
-          <Transition
-            as={Fragment}
-            leave="transition ease-in duration-100"
-            leaveFrom="opacity-100"
-            leaveTo="opacity-0"
-            afterLeave={() => setQuery("")}
-          >
-            <Combobox.Options></Combobox.Options>
+          <Transition as={Fragment} leave="transition ease-in duration-100" leaveFrom="opacity-100" leaveTo="opacity-0" afterLeave={() => setQuery("")}>
+            <Combobox.Options>
+
+            </Combobox.Options>
           </Transition>
         </div>
       </Combobox>
