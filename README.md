@@ -1,8 +1,11 @@
-# Car Rental App | React, Next JS 13, TypeScript, Tailwind CSS, Headless UI
+# Car Rental App | React, Next JS 13, TypeScript, Tailwind CSS
 
-_NOTE_ - Initially, I pulled all the car images from an API, including the different angles of the car when a user clicks "view more". However, as my free trial has expired I can no longer make calls for the car images. Until I find a suitable replacement API for the car images, I have used the stock hero image as a placeholder for the time being.
+_NOTE_ - Initially, I pulled all the car images from an API, including the different angles of the car when a user clicks "view more" (see below). However, as my free trial has expired I can no longer make calls for the car images. Until I find a suitable replacement API for the car images, I have used the stock hero image as a placeholder for the time being.
 
-## [LIVE DEMO](https://ai-weather-app-three.vercel.app) :point_left:
+<img width="1000" alt="Screenshot 2023-07-15 at 15 45 16" src="https://github.com/shivsgkashyap/car-showcase-app/assets/89941894/05b55e75-c345-405f-890d-3f6ffac26d20">  
+<img width="500" alt="Screenshot 2023-07-15 at 11 53 02" src="https://github.com/shivsgkashyap/car-showcase-app/assets/89941894/9c79417d-61a2-4135-9092-7fab9a17f5cf">
+
+## [LIVE DEMO](https://car-showcase-app-pi.vercel.app/) :point_left:
 
 ## Project Summary
 
