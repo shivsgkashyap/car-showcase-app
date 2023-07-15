@@ -1,34 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Car Rental App | React, Next JS 13, TypeScript, Tailwind CSS, Headless UI
 
-## Getting Started
+_NOTE_ - Initially, I pulled all the car images from an API, including the different angles of the car when a user clicks "view more". However, as my free trial has expired I can no longer make calls for the car images. Until I find a suitable replacement API for the car images, I have used the stock hero image as a placeholder for the time being.
 
-First, run the development server:
+## [LIVE DEMO](https://ai-weather-app-three.vercel.app) :point_left:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Project Summary
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+State-of-the-art, fully responsive modern application that leverages all of the latest and greatest of what Next 13 has to offer, leveraging features such as server-side rendering and the app router. All packaged in an aesthetically pleasing design. Built with Next.js 13, React.js, TypeScript, Tailwind, Rapid API & Headless UI.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Modern app built with React and the new features of Next.js 13
+- TypeScript to reduce the overall number of Bugs and Errors
+- Fully responsive site with Tailwind CSS
+- Added headless UI to level up the app's UI
+- Used Rapid API to generate all car information
+- Use Next.js 13 App Router and Server Side Rendering
+- Implement Advanced Search Functionality
+- Create Filtering Capabilities
+- Optimize Metadata and SEO
+- Create custom filter, combobox, and modal elements
+- Maintain a well-organized file and folder structure.
+- Embrace the principles of writing clean code.
+- Deployed final build to Vercel
